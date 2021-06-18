@@ -1,4 +1,4 @@
-
+Code Description:
 
 ##Introduction:
 The game is written in java through the use of (“javax.lang”) library, in which the main function in the Main.java class calls the class Gamepanel.java, where the main game loop is located, and passing it to a JFrame object. The GamePanel.java class extends  the Canvas class and implements the Runnable, KeyListener interfaces Because of the use threads in the GamePanel.java, by which we initialize a thread by passing a runnable object after overriding the Run() function through the constructor of the Thread class to create a thread for the GamePanel.java class, also I implemented threads in the player class in the aimbot() function , the function that is responsible to make the player seeks and shoots automatically when the target ball is in range, in which this function runs on its own thread , which I noticed after many trials that , when this function runs on its own thread it improves the accuracy of the player
